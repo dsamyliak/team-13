@@ -1,12 +1,12 @@
 import './sass/main.scss';
-import { Notify } from 'notiflix';
-const axios = require('axios').default;
+// import { Notify } from 'notiflix';
+// const axios = require('axios').default;
 // Описан в документации
-import SimpleLightbox from 'simplelightbox';
+// import SimpleLightbox from 'simplelightbox';
 // Дополнительный импорт стилей
-import 'simplelightbox/dist/simple-lightbox.min.css';
-import renderedTeam from "./js/team-create.js";
+// import 'simplelightbox/dist/simple-lightbox.min.css';
 
+import renderedTeam from "./js/team-create";
 import { members } from "./js/team-create";
 
 //------------------------------------------------------------------------------------------
