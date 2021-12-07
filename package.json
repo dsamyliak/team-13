@@ -1,22 +1,22 @@
 {
-  "name": "goit-js-hw-11",
+  "name": "team-13",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://goitacademy.github.io/goit-js-hw-11",
+  "homepage": "https://github.com/dsamyliak/team-13",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
+    "build": "parcel build src/*.html --public-url /team-13/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dsamyliak/goit-js-hw-11"
+    "url": "git+https://github.com/dsamyliak/team-13"
   },
   "keywords": [],
   "author": "Dmytro Samyliak <dsamyliak@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/goit-js-hw-11/issues"
+    "url": "https://github.com/dsamyliak/team-13/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
