@@ -1,0 +1,1 @@
+{"version":3,"sources":["sass/_team-list-styles.scss"],"names":[],"mappings":"AAMA,SACE,WAEF,MACE,WAAA,CACA,UAAA,CACA,UAAA,CACA","file":"src.0885bea5.css","sourceRoot":"../src","sourcesContent":["h1 {\n  margin: 1em;\n}\nul {\n  margin: 1em;\n}\nli {\n  margin: 1em;\n}\ninput {\n  margin: 1rem;\n  color: aqua;\n  fill: brown;\n  text-decoration-color: brown;\n}\n"]}
