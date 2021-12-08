@@ -52,7 +52,7 @@ export const members = [
     {
     name: "Андрей",
     lastname: "Пенский",
-    photo: "notchecked",
+    photo: "checked",
     },
 ];
 
