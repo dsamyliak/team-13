@@ -1,0 +1,29 @@
+a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+a:link {
+  color: #497ddd;
+  //   border-bottom: 1px dashed;
+}
+a:visited {
+  color: #ef7d55;
+}
+a:hover {
+  color: #154088;
+  //   border-bottom: 0.07em solid;
+}
+a:active {
+  color: #497ddd;
+  //   border-bottom: 1px dashed;
+}
+
+.block {
+  display: block;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 30px;
+}

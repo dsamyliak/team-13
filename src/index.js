@@ -6,15 +6,18 @@ import './sass/main.scss';
 // Дополнительный импорт стилей
 // import 'simplelightbox/dist/simple-lightbox.min.css';
 
-import renderedTeam from "./js/team-create";
-import { members } from "./js/team-create";
-
 //------------------------------------------------------------------------------------------
 
-const teamMemberSelector = document.querySelector('.team--list');
 
-let markup = renderedTeam(members);
-teamMemberSelector.insertAdjacentHTML("beforeend", markup);
+// import renderedTeam from "./js/team-create";
+// import { members } from "./js/team-create";
+
+// 
+
+// const teamMemberSelector = document.querySelector('.team--list');
+
+// let markup = renderedTeam(members);
+// teamMemberSelector.insertAdjacentHTML("beforeend", markup);
 
 
 // -------------------------------------------------------------------------------------------------------

@@ -1,79 +1,69 @@
 import '../sass/main.scss';
 
-export const members = [
+export const membersGithubs = [
     {
     name: "Dmytro",
     lastname: "Samyliak",
-    photo: "checked",
-    photoUrl: "",
+    githublink: "github.com",
     },
     {
     name: "Anatol",
     lastname: "Biełow",
-    photo: "checked",
-    photoUrl: "",
+    githublink: "github.com",
     },
     {
     name: "Ганна",
     lastname: "Батарчук",
-    photo: "checked",
-    photoUrl: "",
+    githublink: "github.com",
     },
     {
     name: "Yulia",
     lastname: "Semenyuk",
-    photo: "checked",
-    photoUrl: "",
+    githublink: "github.com",
     },
     {
     name: "Vsevolod",
     lastname: "Antonov",
-    photo: "checked",
-    photoUrl: "",
+    githublink: "github.com",
     },
     {
     name: "Galyna",
     lastname: "Maikovych",
-    photo: "checked",
-    photoUrl: "",
+    githublink: "github.com",
     },
     {
     name: "Vitalii",
     lastname: "Shulga",
-    photo: "checked",
-    photoUrl: "",
+    githublink: "github.com",
     },
     {
     name: "Василий",
     lastname: "Волобаев",
-    photo: "checked",
-    photoUrl: "",
+    githublink: "github.com",
     },
     {
     name: "Anastasiia",
     lastname: "Chorna",
-    photo: "checked",
-    photoUrl: "",
+    githublink: "github.com",
     },
     {
     name: "Dmytro",
     lastname: "Litinskyi",
-    photo: "notchecked",
+    githublink: "notgithub.com",
     },
     {
     name: "Андрей",
     lastname: "Пенский",
-    photo: "checked",
-    photoUrl: "",
+    githublink: "github.com",
     },
 ];
 
-export default function renderedTeam(members) {
+export default function renderedTeam(membersGithubs) {
 
 let markup = "";
     
     
-    markup = members.map((member) =>
+    markup = membersGithubs.map((member) =>
          
     `<li class="team--member">
       <input type="checkbox" name="${member.lastname}" id="samyliak" value="yes" ${member.photo} />
@@ -87,7 +77,7 @@ let markup = "";
     
 };
 
-const teamMemberSelector = document.querySelector('.team--list');
+const teamGithubSelector = document.querySelector('.team--githubs-list');
 
-let markup = renderedTeam(members);
-teamMemberSelector.insertAdjacentHTML("beforeend", markup);
+let markup = renderedTeam(membersGithubs);
+teamGithubSelector.insertAdjacentHTML("beforeend", markup);

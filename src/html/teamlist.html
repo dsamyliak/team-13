@@ -8,11 +8,11 @@
   </head>
   <body></body>
 </html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gallery Pixabay</title>
+    <title>List Photos</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -24,10 +24,8 @@
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
     <!-- <include src="./partials/search-form.html"></include> -->
     <!-- <include src="./partials/gallery.html"></include> -->
-    <h1>Team 13</h1>
-    <div class="first block"><a href="./html/teamlist.html">Members Photos</a></div>
-    <div class="second block"><a href="./html/teamgithub.html">Members Githubs</a></div>
+    <include src="partials/team-list.html"></include>
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
-    <script src="./index.js"></script>
+    <script src="../js/team-create.js"></script>
   </body>
 </html>
