@@ -58,7 +58,7 @@ export const members = [
     {
     name: "Dmytro",
     lastname: "Litinskyi",
-    photo: "notchecked",
+    photo: "checked",
     },
     {
     name: "Андрей",
